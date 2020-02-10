@@ -1,0 +1,465 @@
+Microsoft Windows [Version 10.0.19041.21]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Suhet\Desktop>python
+Python 2.7.17 (v2.7.17:c2f86d86e6, Oct 19 2019, 21:01:17) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x=5
+>>> type(x)
+<type 'int'>
+>>> y="hello world"
+>>> type(y)
+<type 'str'>
+>>> y.upper()
+'HELLO WORLD'
+>>> fruits=["1","2","3","4"]
+>>> type(fruits)
+<type 'list'>
+>>> fruits[1]
+'2'
+>>> fruits[2]="yeah"
+>>> fruits
+['1', '2', 'yeah', '4']
+>>> fruits=("1","2","3","4")
+>>> type(fruits)
+<type 'tuple'>
+>>> fruits[:2]
+('1', '2')
+>>> fruits[2:]
+('3', '4')
+>>> fruits[:]
+('1', '2', '3', '4')
+>>> fruits={"1":"a","2":"b","3":"c"}
+>>> type(fruits)
+<type 'dict'>
+>>> fruits['1']
+'a'
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.keys()
+['1', '3', '2']
+>>> fruits.keys()
+['1', '3', '2']
+>>> fruits.keys().sort()
+>>> fruits.keys()
+['1', '3', '2']
+>>> fruits.keys().sort()
+>>> fruits={"1":"a","2":"b","3":"c"}
+>>> fruits.values()
+['a', 'c', 'b']
+>>> fruits.keys()
+['1', '3', '2']
+>>> s="hello world"
+>>> if "world" in s:
+...     print s
+...
+hello world
+>>> if "world" in s:
+...     print 'world is present at' + str(s.find("world"))
+...
+world is present at6
+>>> range(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> y=10
+>>> if(y==10):
+...     print y
+...
+10
+>>> y=10
+>>> x+=1
+>>> x
+11
+>>> y=10
+>>> for y in range(4,256,4):
+...     y=y*y
+...     if(y>512):
+...             break
+...     print y
+...
+16
+64
+144
+256
+400
+>>> students = {'1': {'name':'bob','grade':2.5},'2': {'name':'mary','grade':3.5},'1': {'name':'bob','grade':4.2}}
+>>> def averageGrade(students):
+...     sum=0.0
+...     for key in students:
+...             sum=sum+students[key]['grade']
+...     average = sum/len(students)
+...     return average
+...
+>>> avg=averageGrade(students)
+>>> print "average is: %0.2f" %(avg)
+average is: 3.85
+>>> students = {'1': {'name':'bob','grade':2.5},'2': {'name':'mary','grade':3.5},'3': {'name':'bob','grade':4.2}}
+>>> def averageGrade(students):
+...     sum=0.0
+...     for key in students:
+...             sum=sum+students[key]['grade']
+...     average = sum/len(students)
+...     return average
+...
+>>> avg=averageGrade(students)
+>>> print "average is: %0.2f" %(avg)
+average is: 3.40
+>>> import email
+>>> dir(email)
+['Charset', 'Encoders', 'Errors', 'FeedParser', 'Generator', 'Header', 'Iterators', 'LazyImporter', 'MIMEAudio', 'MIMEBase', 'MIMEImage', 'MIMEMessage', 'MIMEMultipart', 'MIMENonMultipart', 'MIMEText', 'Message', 'Parser', 'Utils', '_LOWERNAMES', '_MIMENAMES', '__all__', '__builtins__', '__doc__', '__file__', '__name__', '__package__', '__path__', '__version__', '_name', 'base64MIME', 'email', 'importer', 'message_from_file', 'message_from_string', 'mime', 'quopriMIME', 'sys']
+>>> fp=open("C:\Users\Himanshu Bhalani\Desktop\Random.txt",'r')
+>>> content = fp.read()
+>>> content
+'https://www.kaggle.com/himanshubhalani/exercise-your-first-machine-learning-model/edit\nhttps://www.kaggle.com/himanshubhalani/exercise-model-validation/edit\nhttps://www.kaggle.com/himanshubhalani/exercise-underfitting-and-overfitting/edit\nhttps://www.kaggle.com/himanshubhalani/exercise-random-forests/edit\nhttps://www.kaggle.com/himanshubhalani/exercise-machine-learning-competitions/edit\n\n\n\ngcc _ipc.c _bgi.c _graphics.c _server.c _client.c line.c -lgdi32 && a && del a.exe'
+>>> fp.close()
+>>> from datetime import date
+>>> now = date.today ( )
+>>> print "Date: " + now.strftime ("%m-%d-%y")
+Date: 02-07-20
+>>> print "Day of Week: " + now.strftime ("%A")
+Day of Week: Friday
+>>> print "Month: " + now.strftime ("%B")
+Month: February
+>>>
+a=6
+type(a)
+
+b=4.5
+type(b)
+
+x=936239773592L
+type(x)
+
+y=2+4j
+y
+type(y)
+y.real
+y.imag
+a=9
+s=8
+c=a+s
+d=a-s
+e=a*s
+f=a/s
+g=a**s
+fruits=("apple","mango","banana")
+fruits
+type(fruits)fruits[0]
+fruits[:2]fruits[0]
+fruits[:2]fruits[0]
+fruits[:2]students['name']
+students.items()
+students.keys()
+students.values()students.has_key('name')
+students.has_key('grade')students['name']
+students.items()
+students.keys()
+students.values()students['name']
+students.items()
+students.keys()
+students.values()a=1000
+str(a)
+
+b="100"
+int(b)students['name']
+students.items()
+students.keys()
+students.values()s="Hello World"
+len(s)
+
+t="Hero"
+
+d=s+t
+d
+
+s="asasas"
+list(s)
+
+set(s)a=2**5
+if a>100:
+	print "More"
+else:
+	print "Less"students['name']
+students.items()
+students.keys()
+students.values()a=2**5
+if a>100:
+	print "More"
+else:
+	print "Less"a=2**5
+if a>100:
+	print "More"
+else:
+	print "Less"helloString="Hello World"
+for c in helloString:
+	print ca=2**5
+if a>100:
+	print "More"
+else:
+	print "Less"a=2**5
+if a>100:
+	print "More"
+else:
+	print "Less"helloString="Hello World"
+for c in helloString:
+	print chelloString="Hello World"
+for c in helloString:
+	print cs="HelloWorld"
+
+s.upper()
+
+s.lower()
+i=0
+while i<=100:
+	if i%2==0:
+		print(i)
+	i=i+1
+
+range(10)range(10)range(10)range(10)range(10,110,10)y=1
+for x in range(4,256,4):
+	y=y+x
+	if y>512:
+		break
+	print(y)
+
+y=1
+for x in range(4,256,4):
+	y=y+x
+	if y>512:
+		break
+	print(y)
+
+y=1
+for x in range(4,256,4):
+	y=y+x
+	if y>512:
+		break
+	print(y)
+
+y=1
+for x in range(4,256,4):
+	y=y+x
+	if y>512:
+		break
+	print(y)
+
+s="HelloWorld"
+
+s.upper()
+
+s.lower()
+def avgGrade(students):
+	sum=0.0
+	for key in students:
+		sum=sum+students[key]['grade']
+	avg=sum/len(students)
+	return avgdef avgGrade(students):
+	sum=0.0
+	for key in students:
+		sum=sum+students[key]['grade']
+	avg=sum/len(students)
+	return avgdef avgGrade(students):
+	sum=0.0
+	for key in students:
+		sum=sum+students[key]['grade']
+	avg=sum/len(students)
+	return avgdef students(name,*varargs):
+	for item in varargs:
+		print(item)
+
+student('Nav')
+def avgGrade(students):
+	sum=0.0
+	for key in students:
+		sum=sum+students[key]['grade']
+	avg=sum/len(students)
+	return avgdef students(name,*varargs):
+	for item in varargs:
+		print(item)
+
+student('Nav')
+def students(name,*varargs):
+	for item in varargs:
+		print(item)
+
+student('Nav')
+import email
+
+dir(email)import email
+
+dir(email)import email
+
+dir(email)fruit=['mango','banana']
+veg=['potato','tomato']
+
+food=fruit+veg
+foodfp=open('file.txt','r')
+content=fp.read()
+print(content)fp=open('file.txt','r')
+content=fp.read()
+print(content)fp=open('file.txt','r')
+content=fp.read()
+print(content)fp=open('file.txt','r')
+print("Line-1 : "+fp.readLine())
+fp=open('file.txt','r')
+print("Line-1 : "+fp.readLine())
+fp=open('file.txt','r')
+print("Line-1 : "+fp.readLine())
+fp=open('file.txt','r')
+lines=fp.readLines()
+for line in lines:
+	print(line)
+fp=open('file.txt','r')
+lines=fp.readLines()
+for line in lines:
+	print(line)
+fp=open('file.txt','r')
+lines=fp.readLines()
+for line in lines:
+	print(line)
+fp=open('file.txt','r')
+lines=fp.readLines()
+for line in lines:
+	print(line)
+fruit=['mango','banana']
+veg=['potato','tomato']
+
+food=fruit+veg
+foodfp=open('file.txt','r')
+fp.read(10)fp=open('file.txt','r')
+fp.read(10)fp=open('file.txt','r')
+fp.seek(10,0)
+content=fp.read(10)
+print(content)fp=open('file.txt','r')
+fp.seek(10,0)
+content=fp.read(10)
+print(content)fp=open('file.txt','r')
+fp.seek(10,0)
+content=fp.read(10)
+print(content)fp=open('file.txt','w')
+content='assasasadsafsdasd'
+fp.write(content)
+fp.close()
+fp=open('file.txt','w')
+content='assasasadsafsdasd'
+fp.write(content)
+fp.close()
+fp=open('file.txt','w')
+content='assasasadsafsdasd'
+fp.write(content)
+fp.close()
+fp=open('file.txt','w')
+content='assasasadsafsdasd'
+fp.write(content)
+fp.close()
+import time
+nowtime=time.time()
+time.localtime(nowtime)mixed=['data',5,100,1,2121212L]
+type(mixed)
+type(mixed[1])
+mixed
+import time
+nowtime=time.time()
+time.localtime(nowtime)import time
+nowtime=time.time()
+time.localtime(nowtime)import time
+nowtime=time.time()
+time.localtime(nowtime)import time
+nowtime=time.time()
+time.localtime(nowtime)
+time.asctime(time.localtime(nowtime))import time
+nowtime=time.time()
+time.localtime(nowtime)
+time.asctime(time.localtime(nowtime))
+class Student:
+	studentCount=0
+	def __init__(self, name,id):
+		self.name=name
+		self.id=id
+		Student.studentCount=Student.studentCount+1
+	def getStudentCount(self):
+		return Student.studentCount
+
+	def getGrade(self,key):
+		return self.grades(key)
+	
+	def addGrade(self,key,value):
+		self.grades[key]=value
+
+s=Student('Steve','8789')
+s.addGrade('Math','90')
+s.addGrade('English','89')
+s.getGrade('Math')
+class Shape:
+	def __init__(self):
+		self.color='Green'
+		self.lineWeight=10.0
+
+	def draw(self):
+		print("Draw-to be implemented")
+	def setColor(self, c):
+		self.color=c
+	def getColor(self):
+		return self.color
+	def setLineWeight(self,lwt):
+		self.lineWeight=lwt
+	def getLineWeight(self):
+		return self.lineWeight
+
+class Circle(Shape):
+	def setCenter(self,c):
+		self.center=c
+	def getCenter(self):
+		return self.center
+	def setRadius(self,r):
+		self.radius=r
+	def getRadius(self):
+		return self.radius
+	def draw(self):
+		print("Draw Circle (overriden function)")
+
+class Point:
+	def __init__(self,x,y):
+		self.xCoordinate=x
+		self.yCoordinate=y
+	def setX(self,x):
+		self.xCoordinate=x
+	def setY(self,y):
+		self.yCoordinate=y
+	def getX(self):
+		return self.xCoordinate
+	def getY(self):
+		return self.yCoordinate
+
+p=Point(2,6)
+cir=Circle(p,9)
+cir.getColor()
+cir.setColor('red')
+cir.getColor()
+cir.getLineWeight()
+cir.draw()
+cir.radius
+		fruit=['mango','banana']
+veg=['potato','tomato']
+
+food=fruit+veg
+foodfruit=['mango','banana']
+veg=['potato','tomato']
+
+food=fruit+veg
+food
